@@ -19,5 +19,5 @@ pipeline {
 }  // pipeline
 
     def buildApp() {
-        sh "echo Building..."
+        sh "echo Building 2..."
     }
