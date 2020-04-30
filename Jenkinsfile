@@ -26,4 +26,5 @@ pipeline {
     }
     def testApp() {
         sh "echo Testing 2..."
+        sh "docker ps "
     }
