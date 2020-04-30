@@ -14,10 +14,16 @@ pipeline {
     }
     
 
+    stage('test') {
+        steps { testApp() }
+    }
 
   } //stage definitions
 }  // pipeline
 
     def buildApp() {
         sh "echo Building 2..."
+    }
+    def testApp() {
+        sh "echo Testing 2..."
     }
