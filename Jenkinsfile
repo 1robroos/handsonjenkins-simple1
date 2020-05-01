@@ -22,9 +22,9 @@ pipeline {
 }  // pipeline
 
     def buildApp() {
-        sh "echo Building 2..."
+        sh "echo Building 3..."
     }
     def testApp() {
-        sh "echo Testing 2..."
+        sh "echo Testing 3..."
         sh "docker ps "
     }
